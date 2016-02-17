@@ -29,5 +29,19 @@
 - Interpretting regression coefficients
 - Dealing with dummy variables in regression lines
 - intro on sklearn and searborn library
-- HW 2 assigned - Due date Feb 17th 2016 at 6:30PM	
- 
+- HW 2 assigned - Due date Feb 17th 2016 at 6:30PM
+
+## Lecture 5 Summary
+- Hypothesis test - test of significance on regression coefficients
+- p-value
+- Capture non-linearity using Linear Regression lines.
+- Different types of errors and R-squared
+- Interaction Effects
+	
+## Lecture 6 Summary
+
+- Bias-Variance Trade off
+- Validation (Test vs Train set)
+- Cross-Validation
+- Ridge and Lasso Regression
+- (Optional) Backward Selection, Forward Selection, All Subset Selection. (If you want to use these methods you need to use R)
