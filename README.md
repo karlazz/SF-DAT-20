@@ -45,3 +45,42 @@
 - Cross-Validation
 - Ridge and Lasso Regression
 - (Optional) Backward Selection, Forward Selection, All Subset Selection. (If you want to use these methods you need to use R)
+
+## Lecture 7 Summary
+- Types of missing data (MCAR, MAR, NMAR)
+- Single imputation and their limitations
+- Imuptation using regression lines and error
+- Hot deck imputation
+- multiple imputation
+
+
+## Lecture 8 Summary
+- Classification Problems
+- Misclassifciation Error
+- KNN algorithm for Classification
+- Cross-Validation for KNN Algorithm
+- Limitations of KNN Algorithm
+- KNN algorithm for Regression
+
+## Lecture 9 Summary
+- Intro to Logistic Regression
+- Odds vs Probability
+- Using Logistic Regression to Make predictions
+- How one interprets coefficients of Logistic Regression model
+- Strength and weaknesses of Logistic Regression Model
+
+## Lecture 10 Summary
+- Unbalanced observations and Logistic Regression
+- FP/FN/TP/TN/FPR/TPR
+- The effect of chaning Threshold
+- ROC Curves
+- Area Under Curve
+- How to compare classifciation algorithms
+
+## Lecture 11 Summary
+- Decision Tree for Regression
+- Greedy Approach
+- Decision Tree for Classification
+- Gini Index and Entropy index
+- Limitation of Simple Decision Tree
+
