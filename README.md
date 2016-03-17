@@ -115,3 +115,16 @@
 * [Automatically Categorizing Yelp Businesses](http://engineeringblog.yelp.com/2015/09/automatically-categorizing-yelp-businesses.html) discusses how Yelp uses NLP and scikit-learn to solve the problem of uncategorized businesses.
 * [Modern Methods for Sentiment Analysis](http://districtdatalabs.silvrback.com/modern-methods-for-sentiment-analysis) shows how "word vectors" can be used for more accurate sentiment analysis.
 * [Identifying Humorous Cartoon Captions](http://www.cs.huji.ac.il/~dshahaf/pHumor.pdf) is a readable paper about identifying funny captions submitted to the New Yorker Caption Contest.
+
+## Lecture 14 Summary
+
+- Principal Component Analysis
+- Computation of PCAs
+- Geometry of PCAs
+- Proportion of Variance Explained
+
+**Additional Resources**
+
+* [This tutorial](http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf) on Principal Components Analysis (PCA) includes good refreshers on covariance and linear algebra
+* To go deeper on Singular Value Decomposition, read [Kirk Baker's excellent tutorial](https://www.ling.ohio-state.edu/%7Ekbaker/pubs/Singular_Value_Decomposition_Tutorial.pdf).
+* Chapter 10 of  [Statistical Learning with applications in R](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Fourth%20Printing.pdf)
