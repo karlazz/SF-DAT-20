@@ -128,3 +128,15 @@
 * [This tutorial](http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf) on Principal Components Analysis (PCA) includes good refreshers on covariance and linear algebra
 * To go deeper on Singular Value Decomposition, read [Kirk Baker's excellent tutorial](https://www.ling.ohio-state.edu/%7Ekbaker/pubs/Singular_Value_Decomposition_Tutorial.pdf).
 * Chapter 10 of  [Statistical Learning with applications in R](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Fourth%20Printing.pdf)
+
+## Lecture 15 Summary
+
+- AutoRegressive Models
+- Moving Averages
+- ARMA
+- ARIMA
+
+**Additional Resources**
+
+* [This is a good resource](http://www.maths.qmul.ac.uk/~bb/TS_Chapter4_5.pdf) for AR models
+* [Seemingly easy to read book](http://www.statistik-mathematik.uni-wuerzburg.de/fileadmin/10040800/user_upload/time_series/the_book/2012-August-01-times.pdf) on time series. 
