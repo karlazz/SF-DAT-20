@@ -333,5 +333,5 @@ Name | Description
 
 - [Lecture 18 - Slides](https://github.com/ga-students/SF-DAT-20/blob/master/Lecture%20Notes-Slides/Lecture%2018.pptx)
 - [Voting Classifier - Lab Codes](https://github.com/ga-students/SF-DAT-20/blob/master/Code/Lecture18.ipynb)
-- [Voting Classifier - Practice Codes](https://github.com/ga-students/SF-DAT-20/blob/master/Code/Lecture18-Practice-Code.ipynb) 
+- [Voting Classifier - Practice Codes](https://github.com/ga-students/SF-DAT-20/blob/master/Code/Lecture18-Practice-code.ipynb) 
 
