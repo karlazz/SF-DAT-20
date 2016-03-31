@@ -215,7 +215,7 @@ Name | Description
 - Definition of Natural Language Processing 
 - NLP applications
 - Basic NLP practice
-- Stop words, bag-of-words, IF-DIF
+- Stop words, bag-of-words, TF-DIF
 
 **Resources**
  
