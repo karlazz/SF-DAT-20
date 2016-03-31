@@ -215,7 +215,7 @@ Name | Description
 - Definition of Natural Language Processing 
 - NLP applications
 - Basic NLP practice
-- Stop words, bag-of-words, IF-DIF
+- Stop words, bag-of-words, TF-DIF
 
 **Resources**
  
@@ -312,7 +312,7 @@ Name | Description
 - [Lecture 17 - Slides](https://github.com/ga-students/SF-DAT-20/blob/master/Lecture%20Notes-Slides/Lecture%2017.pptx)
 - [Naive Bayes - Lab Codes](https://github.com/ga-students/SF-DAT-20/blob/master/Code/Lecture17.ipynb) 
 - [Naive Bayes - Practice Code](https://github.com/ga-students/SF-DAT-20/blob/master/Code/Lecture17-Practice-Code.ipynb) 
-
+- [Naive Bayes - Practice Solutions](https://github.com/ga-students/SF-DAT-20/blob/master/Code/Lecture17-Practice-Solution.ipynb)
 
 **Additional Resources**
 
@@ -320,4 +320,18 @@ Name | Description
 * Easy-to-read lecture notes on [Naive Bayes](http://www.cs.colostate.edu/~cs545/fall13/dokuwiki/lib/exe/fetch.php?media=wiki%3A13_naive_bayes.pdf)
 * Naive Bayes model explained in more detail. [Harvard Unviersity - lecture notes](http://isites.harvard.edu/fs/docs/icb.topic540049.files/cs181_lec18_handout.pdf)
 * For more details on Naive Bayes classification, Wikipedia has two excellent articles ([Naive Bayes classifier](http://en.wikipedia.org/wiki/Naive_Bayes_classifier) and [Naive Bayes spam filtering](http://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering)), and Cross Validated has a good [Q&A](http://stats.stackexchange.com/questions/21822/understanding-naive-bayes).
+
+## Lecture 18 Summary (Wrap Up)
+
+**Summary**
+
+* Materials that are covered in previous lectures were reviewed
+* We discussed when to use which model
+* roadmap of future training and self-study
+
+**Resources**
+
+- [Lecture 18 - Slides](https://github.com/ga-students/SF-DAT-20/blob/master/Lecture%20Notes-Slides/Lecture%2018.pptx)
+- [Voting Classifier - Lab Codes](https://github.com/ga-students/SF-DAT-20/blob/master/Code/Lecture18.ipynb)
+- [Voting Classifier - Practice Codes](https://github.com/ga-students/SF-DAT-20/blob/master/Code/Lecture18-Practice-code.ipynb) 
 
