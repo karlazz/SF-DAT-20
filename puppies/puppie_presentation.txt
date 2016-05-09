@@ -1,0 +1,53 @@
+Good Puppy Bad Puppy attempts to find a relationship between descriptive wording and the time it takes for a puppy adoption to occur.  
+
+Due to data sampling issues, the question had to be reformed to be: Is there are a correlation between descriptive wording and the puppies' time on the site?  That is, are puppies who have been on the site the longest more likely to have negative elements in their descriptions than puppies who have been recently posted.
+
+The data source is www.puppyfinder.com, and the "puppies" are selected from the Dogs for Adoption section.  Only entries from California were pulled.  There were 6,451 dogs listed. 
+
+Records were obtained by web-scraping.
+
+For each dog there is a record containing:
+
+Posting Date
+Title
+Breed
+Age Category
+Gender
+Rescue
+Description
+Location
+
+I created variables for
+city
+state
+is_male
+is_rescue
+days_on_site = Created using sample date - posting date
+age = set to None if age>20 or no age available.  Created using a search of the Description field for strings like "1 yr old", "2 years old".  When this phrase is found I took the number from the phrase. This feature is often missing and may not be totally accurate.  In a case like this: "3-5 years old" the algorithm takes the last age so the age would be 5.  
+polarity = Created with TextBlob.sentiment
+objectivity = Created with TextBlob.sentiment
+
+
+
+Here are descriptive statistics about the original dataset.
+...
+
+Real world data problems forced a rethinking of the project.
+
+Originally, I planned to sample one day and then again a few days later and detect if puppies had been removed.  
+
+I took some records on 3/19 without restricting by state and I noticed that a high number of records were dated 3/19.  When I went back to the site a few days later, I noticed that there were no records dated after 3/19.  The site is not being updated properly.  Here is a graph of the distribution of number of days on site, taken from the California group.
+
+
+As of 3/26, the number of records for California has remained static.  I have sampled again, but I see changes made only to some descriptive records that were posted on 12/26.  Nothing has been removed.  The site is not a trusted source.
+
+
+The question now is to look at the static data and see if there are any characteristics of the older records that appear more often than in the new.  
+
+Do I see lower sentiment scores significantly more often in older sets of records?
+
+Could I use a bag of words to predict a sentiment score?
+
+Is there some way to identify words that are more common among the older records?
+
+Are there other factors : age, breed, gender that are common to the older records?
